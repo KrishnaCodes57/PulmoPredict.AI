@@ -1,0 +1,153 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme version="2.0" title="" description="">
+	<nodes>
+		<node id="0" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="File" position="(150, 150)" />
+		<node id="1" name="File" qualified_name="Orange.widgets.data.owfile.OWFile" project_name="Orange3" version="" title="File (1)" position="(286.0, 252.0)" />
+		<node id="2" name="Predictions" qualified_name="Orange.widgets.evaluate.owpredictions.OWPredictions" project_name="Orange3" version="" title="Predictions (1)" position="(669.0, 225.0)" />
+		<node id="3" name="Save Model" qualified_name="Orange.widgets.model.owsavemodel.OWSaveModel" project_name="Orange3" version="" title="Save Model" position="(666.0, 138.0)" />
+		<node id="4" name="Python Script" qualified_name="Orange.widgets.data.owpythonscript.OWPythonScript" project_name="Orange3" version="" title="Python Script" position="(637.0, 7.0)" />
+		<node id="5" name="Tree" qualified_name="Orange.widgets.model.owtree.OWTreeLearner" project_name="Orange3" version="" title="Tree" position="(343.0, 114.0)" />
+		<node id="6" name="Predictions" qualified_name="Orange.widgets.evaluate.owpredictions.OWPredictions" project_name="Orange3" version="" title="Predictions" position="(586.0, -62.0)" />
+		<node id="7" name="Data Table" qualified_name="Orange.widgets.data.owtable.OWTable" project_name="Orange3" version="" title="Data Table" position="(487.0, -120.0)" />
+	</nodes>
+	<links>
+		<link id="0" source_node_id="1" sink_node_id="2" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="1" source_node_id="0" sink_node_id="5" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="2" source_node_id="5" sink_node_id="4" source_channel="Model" sink_channel="Object" enabled="true" source_channel_id="model" sink_channel_id="object" />
+		<link id="3" source_node_id="0" sink_node_id="6" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+		<link id="4" source_node_id="5" sink_node_id="3" source_channel="Model" sink_channel="Model" enabled="true" source_channel_id="model" sink_channel_id="model" />
+		<link id="5" source_node_id="5" sink_node_id="2" source_channel="Model" sink_channel="Predictors" enabled="true" source_channel_id="model" sink_channel_id="predictors" />
+		<link id="6" source_node_id="0" sink_node_id="7" source_channel="Data" sink_channel="Data" enabled="true" source_channel_id="data" sink_channel_id="data" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties node_id="0" format="pickle">gASVKwoAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZQojB5v
+cmFuZ2V3aWRnZXQudXRpbHMuZmlsZWRpYWxvZ3OUjApSZWNlbnRQYXRolJOUKYGUfZQojAdhYnNw
+YXRolIxCQzovVXNlcnMvS3Jpc2huYS9PbmVEcml2ZS9Eb2N1bWVudHMvUHl0aG9uIFNjcmlwdHMv
+ZGF0YXNldCAoMSkuY3N2lIwGcHJlZml4lIwHYmFzZWRpcpSMB3JlbHBhdGiUjB5QeXRob24gU2Ny
+aXB0cy9kYXRhc2V0ICgxKS5jc3aUjAV0aXRsZZSMAJSMBXNoZWV0lGgQjAtmaWxlX2Zvcm1hdJRO
+dWJoBimBlH2UKGgJjD9DOi9Vc2Vycy9LcmlzaG5hL09uZURyaXZlL0RvY3VtZW50cy9QeXRob24g
+U2NyaXB0cy9wcmVkenp6ei5jc3aUaAtoDGgNjBtQeXRob24gU2NyaXB0cy9wcmVkenp6ei5jc3aU
+aA9oEGgRaBBoEk51YmgGKYGUfZQoaAmMI0M6L1VzZXJzL0tyaXNobmEvRG93bmxvYWRzL3ByZWQu
+Y3N2lGgLTmgNTmgPaBBoEWgQaBJOdWJoBimBlH2UKGgJjFlDOi9Vc2Vycy9LcmlzaG5hL0FwcERh
+dGEvTG9jYWwvUHJvZ3JhbXMvT3JhbmdlL0xpYi9zaXRlLXBhY2thZ2VzL09yYW5nZS9kYXRhc2V0
+cy9pcmlzLnRhYpRoC4wPc2FtcGxlLWRhdGFzZXRzlGgNjAhpcmlzLnRhYpRoD2gQaBFoEGgSTnVi
+aAYpgZR9lChoCYxcQzovVXNlcnMvS3Jpc2huYS9BcHBEYXRhL0xvY2FsL1Byb2dyYW1zL09yYW5n
+ZS9MaWIvc2l0ZS1wYWNrYWdlcy9PcmFuZ2UvZGF0YXNldHMvdGl0YW5pYy50YWKUaAtoHWgNjAt0
+aXRhbmljLnRhYpRoD2gQaBFoEGgSTnViaAYpgZR9lChoCYxcQzovVXNlcnMvS3Jpc2huYS9BcHBE
+YXRhL0xvY2FsL1Byb2dyYW1zL09yYW5nZS9MaWIvc2l0ZS1wYWNrYWdlcy9PcmFuZ2UvZGF0YXNl
+dHMvaG91c2luZy50YWKUaAtoHWgNjAtob3VzaW5nLnRhYpRoD2gQaBFoEGgSTnViaAYpgZR9lCho
+CYxiQzovVXNlcnMvS3Jpc2huYS9BcHBEYXRhL0xvY2FsL1Byb2dyYW1zL09yYW5nZS9MaWIvc2l0
+ZS1wYWNrYWdlcy9PcmFuZ2UvZGF0YXNldHMvaGVhcnRfZGlzZWFzZS50YWKUaAtoHWgNjBFoZWFy
+dF9kaXNlYXNlLnRhYpRoD2gQaBFoEGgSTnViaAYpgZR9lChoCYxjQzovVXNlcnMvS3Jpc2huYS9B
+cHBEYXRhL0xvY2FsL1Byb2dyYW1zL09yYW5nZS9MaWIvc2l0ZS1wYWNrYWdlcy9PcmFuZ2UvZGF0
+YXNldHMvYnJvd24tc2VsZWN0ZWQudGFilGgLaB1oDYwSYnJvd24tc2VsZWN0ZWQudGFilGgPaBBo
+EWgQaBJOdWJoBimBlH2UKGgJjFhDOi9Vc2Vycy9LcmlzaG5hL0FwcERhdGEvTG9jYWwvUHJvZ3Jh
+bXMvT3JhbmdlL0xpYi9zaXRlLXBhY2thZ2VzL09yYW5nZS9kYXRhc2V0cy96b28udGFilGgLaB1o
+DYwHem9vLnRhYpRoD2gQaBFoEGgSTnViZYwLcmVjZW50X3VybHOUXZSME3NhdmVkV2lkZ2V0R2Vv
+bWV0cnmUQ0IB2dDLAAMAAAAAAVMAAAANAAADrAAAAnYAAAFUAAAAKwAAA6sAAAJ1AAAAAAAAAAAF
+AAAAAVQAAAArAAADqwAAAnWUjAtzaGVldF9uYW1lc5R9lIwGc291cmNllEsAjAN1cmyUaBCMDWRv
+bWFpbl9lZGl0b3KUfZSMC19fdmVyc2lvbl9flEsBjBBjb250ZXh0X3NldHRpbmdzlF2UjBVvcmFu
+Z2V3aWRnZXQuc2V0dGluZ3OUjAdDb250ZXh0lJOUKYGUfZQojAZ2YWx1ZXOUfZQojAl2YXJpYWJs
+ZXOUXZRoO32UaEddlChdlCiMBkdFTkRFUpSMFE9yYW5nZS5kYXRhLnZhcmlhYmxllIwQRGlzY3Jl
+dGVWYXJpYWJsZZSTlEsAjARGLCBNlIllXZQojANBR0WUaE2MEkNvbnRpbnVvdXNWYXJpYWJsZZST
+lEsAaBCIZV2UKIwHU01PS0lOR5RoT0sAjAQxLCAylIhlXZQojA5ZRUxMT1dfRklOR0VSU5RoT0sA
+jAQxLCAylIhlXZQojAdBTlhJRVRZlGhPSwCMBDEsIDKUiGVdlCiMDVBFRVJfUFJFU1NVUkWUaE9L
+AIwEMSwgMpSIZV2UKIwPQ0hST05JQ19ESVNFQVNFlGhPSwCMBDEsIDKUiGVdlCiMB0ZBVElHVUWU
+aE9LAIwEMSwgMpSIZV2UKIwHQUxMRVJHWZRoT0sAjAQxLCAylIhlXZQojAhXSEVFWklOR5RoT0sA
+jAQxLCAylIhlXZQojBFBTENPSE9MX0NPTlNVTUlOR5RoT0sAjAQxLCAylIhlXZQojAhDT1VHSElO
+R5RoT0sAjAQxLCAylIhlXZQojBNTSE9SVE5FU1NfT0ZfQlJFQVRIlGhPSwCMBDEsIDKUiGVdlCiM
+FVNXQUxMT1dJTkdfRElGRklDVUxUWZRoT0sAjAQxLCAylIhlXZQojApDSEVTVF9QQUlOlGhPSwCM
+BDEsIDKUiGVdlCiMC0xVTkdfQ0FOQ0VSlGhPSwGMB05PLCBZRVOUiWVlc2g9SwF1jAphdHRyaWJ1
+dGVzlCiMBkdFTkRFUpRdlCiMAUaUjAFNlGWGlIwDQUdFlEsChpSMB1NNT0tJTkeUXZQojAExlIwB
+MpRlhpSMDllFTExPV19GSU5HRVJTlF2UKGiJaIplhpSMB0FOWElFVFmUXZQoaIloimWGlIwNUEVF
+Ul9QUkVTU1VSRZRdlChoiWiKZYaUjA9DSFJPTklDX0RJU0VBU0WUXZQoaIloimWGlIwHRkFUSUdV
+RZRdlChoiWiKZYaUjAdBTExFUkdZlF2UKGiJaIplhpSMCFdIRUVaSU5HlF2UKGiJaIplhpSMEUFM
+Q09IT0xfQ09OU1VNSU5HlF2UKGiJaIplhpSMCENPVUdISU5HlF2UKGiJaIplhpSME1NIT1JUTkVT
+U19PRl9CUkVBVEiUXZQoaIloimWGlIwVU1dBTExPV0lOR19ESUZGSUNVTFRZlF2UKGiJaIplhpSM
+CkNIRVNUX1BBSU6UXZQoaIloimWGlIwLTFVOR19DQU5DRVKUXZQojAJOT5SMA1lFU5RlhpR0lIwF
+bWV0YXOUKYwKY2xhc3NfdmFyc5QpjBJtb2RpZmllZF92YXJpYWJsZXOUXZR1YmF1Lg==
+</properties>
+		<properties node_id="1" format="pickle">gASVqAkAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjAxyZWNlbnRfcGF0aHOUXZQojB5v
+cmFuZ2V3aWRnZXQudXRpbHMuZmlsZWRpYWxvZ3OUjApSZWNlbnRQYXRolJOUKYGUfZQojAdhYnNw
+YXRolIw/QzovVXNlcnMvS3Jpc2huYS9PbmVEcml2ZS9Eb2N1bWVudHMvUHl0aG9uIFNjcmlwdHMv
+cHJlZHp6enouY3N2lIwGcHJlZml4lIwHYmFzZWRpcpSMB3JlbHBhdGiUjBtQeXRob24gU2NyaXB0
+cy9wcmVkenp6ei5jc3aUjAV0aXRsZZSMAJSMBXNoZWV0lGgQjAtmaWxlX2Zvcm1hdJROdWJoBimB
+lH2UKGgJjCNDOi9Vc2Vycy9LcmlzaG5hL0Rvd25sb2Fkcy9wcmVkLmNzdpRoC05oDU5oD2gQaBFo
+EGgSTnViaAYpgZR9lChoCYxZQzovVXNlcnMvS3Jpc2huYS9BcHBEYXRhL0xvY2FsL1Byb2dyYW1z
+L09yYW5nZS9MaWIvc2l0ZS1wYWNrYWdlcy9PcmFuZ2UvZGF0YXNldHMvaXJpcy50YWKUaAuMD3Nh
+bXBsZS1kYXRhc2V0c5RoDYwIaXJpcy50YWKUaA9oEGgRaBBoEk51YmgGKYGUfZQoaAmMXEM6L1Vz
+ZXJzL0tyaXNobmEvQXBwRGF0YS9Mb2NhbC9Qcm9ncmFtcy9PcmFuZ2UvTGliL3NpdGUtcGFja2Fn
+ZXMvT3JhbmdlL2RhdGFzZXRzL3RpdGFuaWMudGFilGgLaBloDYwLdGl0YW5pYy50YWKUaA9oEGgR
+aBBoEk51YmgGKYGUfZQoaAmMXEM6L1VzZXJzL0tyaXNobmEvQXBwRGF0YS9Mb2NhbC9Qcm9ncmFt
+cy9PcmFuZ2UvTGliL3NpdGUtcGFja2FnZXMvT3JhbmdlL2RhdGFzZXRzL2hvdXNpbmcudGFilGgL
+aBloDYwLaG91c2luZy50YWKUaA9oEGgRaBBoEk51YmgGKYGUfZQoaAmMYkM6L1VzZXJzL0tyaXNo
+bmEvQXBwRGF0YS9Mb2NhbC9Qcm9ncmFtcy9PcmFuZ2UvTGliL3NpdGUtcGFja2FnZXMvT3Jhbmdl
+L2RhdGFzZXRzL2hlYXJ0X2Rpc2Vhc2UudGFilGgLaBloDYwRaGVhcnRfZGlzZWFzZS50YWKUaA9o
+EGgRaBBoEk51YmgGKYGUfZQoaAmMY0M6L1VzZXJzL0tyaXNobmEvQXBwRGF0YS9Mb2NhbC9Qcm9n
+cmFtcy9PcmFuZ2UvTGliL3NpdGUtcGFja2FnZXMvT3JhbmdlL2RhdGFzZXRzL2Jyb3duLXNlbGVj
+dGVkLnRhYpRoC2gZaA2MEmJyb3duLXNlbGVjdGVkLnRhYpRoD2gQaBFoEGgSTnViaAYpgZR9lCho
+CYxYQzovVXNlcnMvS3Jpc2huYS9BcHBEYXRhL0xvY2FsL1Byb2dyYW1zL09yYW5nZS9MaWIvc2l0
+ZS1wYWNrYWdlcy9PcmFuZ2UvZGF0YXNldHMvem9vLnRhYpRoC2gZaA2MB3pvby50YWKUaA9oEGgR
+aBBoEk51YmWMC3JlY2VudF91cmxzlF2UjBNzYXZlZFdpZGdldEdlb21ldHJ5lENCAdnQywADAAAA
+AAFTAAAADQAAA6wAAAJ2AAABVAAAACsAAAOrAAACdQAAAAAAAAAABQAAAAFUAAAAKwAAA6sAAAJ1
+lIwLc2hlZXRfbmFtZXOUfZSMBnNvdXJjZZRLAIwDdXJslGgQjA1kb21haW5fZWRpdG9ylH2UjAtf
+X3ZlcnNpb25fX5RLAYwQY29udGV4dF9zZXR0aW5nc5RdlIwVb3Jhbmdld2lkZ2V0LnNldHRpbmdz
+lIwHQ29udGV4dJSTlCmBlH2UKIwGdmFsdWVzlH2UKIwJdmFyaWFibGVzlF2UaDd9lGhDXZQoXZQo
+jAZHRU5ERVKUjBRPcmFuZ2UuZGF0YS52YXJpYWJsZZSMEERpc2NyZXRlVmFyaWFibGWUk5RLAIwE
+RiwgTZSJZV2UKIwDQUdFlGhJjBJDb250aW51b3VzVmFyaWFibGWUk5RLAGgQiGVdlCiMB1NNT0tJ
+TkeUaEtLAIwEMSwgMpSIZV2UKIwOWUVMTE9XX0ZJTkdFUlOUaEtLAIwEMSwgMpSIZV2UKIwHQU5Y
+SUVUWZRoS0sAjAQxLCAylIhlXZQojA1QRUVSX1BSRVNTVVJFlGhLSwCMBDEsIDKUiGVdlCiMD0NI
+Uk9OSUNfRElTRUFTRZRoS0sAjAQxLCAylIhlXZQojAdGQVRJR1VFlGhLSwCMBDEsIDKUiGVdlCiM
+B0FMTEVSR1mUaEtLAIwEMSwgMpSIZV2UKIwIV0hFRVpJTkeUaEtLAIwEMSwgMpSIZV2UKIwRQUxD
+T0hPTF9DT05TVU1JTkeUaEtLAIwEMSwgMpSIZV2UKIwIQ09VR0hJTkeUaEtLAIwEMSwgMpSIZV2U
+KIwTU0hPUlRORVNTX09GX0JSRUFUSJRoS0sAjAQxLCAylIhlXZQojBVTV0FMTE9XSU5HX0RJRkZJ
+Q1VMVFmUaEtLAIwEMSwgMpSIZV2UKIwKQ0hFU1RfUEFJTpRoS0sAjAQxLCAylIhlXZQojAtMVU5H
+X0NBTkNFUpRoS0sBjAdOTywgWUVTlIllZXNoOUsBdYwKYXR0cmlidXRlc5QojAZHRU5ERVKUXZQo
+jAFGlIwBTZRlhpSMA0FHRZRLAoaUjAdTTU9LSU5HlF2UKIwBMZSMATKUZYaUjA5ZRUxMT1dfRklO
+R0VSU5RdlChohWiGZYaUjAdBTlhJRVRZlF2UKGiFaIZlhpSMDVBFRVJfUFJFU1NVUkWUXZQoaIVo
+hmWGlIwPQ0hST05JQ19ESVNFQVNFlF2UKGiFaIZlhpSMB0ZBVElHVUWUXZQoaIVohmWGlIwHQUxM
+RVJHWZRdlChohWiGZYaUjAhXSEVFWklOR5RdlChohWiGZYaUjBFBTENPSE9MX0NPTlNVTUlOR5Rd
+lChohWiGZYaUjAhDT1VHSElOR5RdlChohWiGZYaUjBNTSE9SVE5FU1NfT0ZfQlJFQVRIlF2UKGiF
+aIZlhpSMFVNXQUxMT1dJTkdfRElGRklDVUxUWZRdlChohWiGZYaUjApDSEVTVF9QQUlOlF2UKGiF
+aIZlhpSMC0xVTkdfQ0FOQ0VSlF2UKIwCTk+UjANZRVOUZYaUdJSMBW1ldGFzlCmMCmNsYXNzX3Zh
+cnOUKYwSbW9kaWZpZWRfdmFyaWFibGVzlF2UdWJhdS4=
+</properties>
+		<properties node_id="2" format="pickle">gASVsAIAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5
+lENCAdnQywADAAAAAAF5AAAAuAAAA+sAAAHLAAABegAAANYAAAPqAAABygAAAAAAAAAABQAAAAF6
+AAAA1gAAA+oAAAHKlIwJc2VsZWN0aW9ulF2UjAtzaG93X3Njb3Jlc5SIjAtzY29yZV90YWJsZZR9
+lIwQc2hvd19zY29yZV9oaW50c5R9lCiMBk1vZGVsX5SIjAZUcmFpbl+UiYwFVGVzdF+UiYwCQ0GU
+iIwXUHJlY2lzaW9uUmVjYWxsRlN1cHBvcnSUiIwLVGFyZ2V0U2NvcmWUiIwJUHJlY2lzaW9ulIiM
+BlJlY2FsbJSIjAJGMZSIjANBVUOUiIwHTG9nTG9zc5SJjAtTcGVjaWZpY2l0eZSJjBdNYXR0aGV3
+c0NvcnJDb2VmZmljaWVudJSIjANNU0WUiIwEUk1TRZSIjANNQUWUiIwETUFQRZSIjAJSMpSIjAZD
+VlJNU0WUiYwPQ2x1c3RlcmluZ1Njb3JllIiMClNpbGhvdWV0dGWUiIwXQWRqdXN0ZWRNdXR1YWxJ
+bmZvU2NvcmWUiHVzjAtfX3ZlcnNpb25fX5RLAowQY29udGV4dF9zZXR0aW5nc5RdlIwVb3Jhbmdl
+d2lkZ2V0LnNldHRpbmdzlIwHQ29udGV4dJSTlCmBlH2UKIwGdmFsdWVzlH2UKIwXc2hvd19wcm9i
+YWJpbGl0eV9lcnJvcnOUiIwPc2hvd19yZWdfZXJyb3JzlEsBjAtzaG93bl9wcm9ic5RLAYwMdGFy
+Z2V0X2NsYXNzlIwWKEF2ZXJhZ2Ugb3ZlciBjbGFzc2VzKZRoB32UaCFLAnWMB2NsYXNzZXOUjAJO
+T5SMA1lFU5SGlHViYXUu
+</properties>
+		<properties node_id="3" format="literal">{'auto_save': False, 'controlAreaVisible': True, 'filter': 'Pickled model (*.pkcls)', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x02\r\x00\x00\x01\x01\x00\x00\x02\xf3\x00\x00\x01\x82\x00\x00\x02\x0e\x00\x00\x01\x1f\x00\x00\x02\xf2\x00\x00\x01\x81\x00\x00\x00\x00\x00\x00\x00\x00\x05\x00\x00\x00\x02\x0e\x00\x00\x01\x1f\x00\x00\x02\xf2\x00\x00\x01\x81', 'stored_name': '', 'stored_path': 'C:\\Users\\Krishna\\', '__version__': 1}</properties>
+		<properties node_id="4" format="literal">{'controlAreaVisible': True, 'currentScriptIndex': 0, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xef\x00\x00\x00B\x00\x00\x04\x10\x00\x00\x02@\x00\x00\x00\xf0\x00\x00\x00`\x00\x00\x04\x0f\x00\x00\x02?\x00\x00\x00\x00\x00\x00\x00\x00\x05\x00\x00\x00\x00\xf0\x00\x00\x00`\x00\x00\x04\x0f\x00\x00\x02?', 'scriptLibrary': [{'name': 'Table from numpy', 'script': '\nimport tkinter as tk\nfrom tkinter import ttk, messagebox\nimport Orange\nimport pickle\n\n# --------------------------------\n# LOAD MODEL\n# --------------------------------\ntry:\n    model = pickle.load(open("model.pkcls", "rb"))\nexcept:\n    messagebox.showerror("Error", "Model file \'lung_model.pkcls\' not found!")\n    exit()\n\n# --------------------------------\n# DOMAIN\n# --------------------------------\ndomain = Orange.data.Domain([\n    Orange.data.DiscreteVariable("GENDER", values=["1", "2"]),\n    Orange.data.ContinuousVariable("AGE"),\n    Orange.data.DiscreteVariable("SMOKING", values=["1", "2"]),\n    Orange.data.DiscreteVariable("YELLOW_FINGERS", values=["1", "2"]),\n    Orange.data.DiscreteVariable("ANXIETY", values=["1", "2"]),\n    Orange.data.DiscreteVariable("PEER_PRESSURE", values=["1", "2"]),\n    Orange.data.DiscreteVariable("CHRONIC_DISEASE", values=["1", "2"]),\n    Orange.data.DiscreteVariable("FATIGUE", values=["1", "2"]),\n    Orange.data.DiscreteVariable("ALLERGY", values=["1", "2"]),\n    Orange.data.DiscreteVariable("WHEEZING", values=["1", "2"]),\n    Orange.data.DiscreteVariable("ALCOHOL_CONSUMING", values=["1", "2"]),\n    Orange.data.DiscreteVariable("COUGHING", values=["1", "2"]),\n    Orange.data.DiscreteVariable("SHORTNESS_OF_BREATH", values=["1", "2"]),\n    Orange.data.DiscreteVariable("SWALLOWING_DIFFICULTY", values=["1", "2"]),\n    Orange.data.DiscreteVariable("CHEST_PAIN", values=["1", "2"]),\n], Orange.data.DiscreteVariable("LUNG_CANCER", values=["1", "2"]))\n\n\n# --------------------------------\n# MAIN WINDOW\n# --------------------------------\nroot = tk.Tk()\nroot.title("Lung Cancer Predictor")\nroot.geometry("360x500")\nroot.resizable(False, False)\n\n# --------------------------------\n# SCROLLABLE FRAME SETUP\n# --------------------------------\nmain_frame = tk.Frame(root)\nmain_frame.pack(fill=tk.BOTH, expand=1)\n\ncanvas = tk.Canvas(main_frame)\ncanvas.pack(side=tk.LEFT, fill=tk.BOTH, expand=1)\n\nscrollbar = ttk.Scrollbar(main_frame, orient=tk.VERTICAL, command=canvas.yview)\nscrollbar.pack(side=tk.RIGHT, fill=tk.Y)\n\ncanvas.configure(yscrollcommand=scrollbar.set)\ncanvas.bind("&lt;Configure&gt;", lambda e: canvas.configure(scrollregion=canvas.bbox("all")))\n\nframe = tk.Frame(canvas)\ncanvas.create_window((0, 0), window=frame, anchor="nw")\n\n\n# Smooth mouse scroll support\ndef on_mousewheel(event):\n    canvas.yview_scroll(int(-1 * (event.delta / 120)), "units")\n\ncanvas.bind_all("&lt;MouseWheel&gt;", on_mousewheel)\n\n\n# --------------------------------\n# INPUT FIELDS\n# --------------------------------\ntitle = tk.Label(frame, text="PulmoPredict.AI",\n                 bg="white", fg="red",\n                 font=("Arial", 16, "bold"))\ntitle.pack(pady=10)\n\nfields = {}\nquestions = [\n    "Gender (1=F, 2=M)",\n    "Age",\n    "Smoking",\n    "Yellow Fingers",\n    "Anxiety",\n    "Peer Pressure",\n    "Chronic Disease",\n    "Fatigue",\n    "Allergy",\n    "Wheezing",\n    "Alcohol Consuming",\n    "Coughing",\n    "Shortness of Breath",\n    "Swallowing Difficulty",\n    "Chest Pain"\n]\n\nyes_no = ["1", "2"]\n\nfor q in questions:\n    tk.Label(frame, text=q, font=("Arial", 11), anchor="w").pack(pady=2)\n\n    if q == "Age":\n        entry = tk.Entry(frame)\n    elif q.startswith("Gender"):\n        entry = ttk.Combobox(frame, values=["1", "2"], state="readonly")\n    else:\n        entry = ttk.Combobox(frame, values=yes_no, state="readonly")\n\n    entry.pack(pady=4, fill=tk.X, padx=20)\n    fields[q] = entry\n\n\n# --------------------------------\n# PREDICT BUTTON FUNCTION\n# --------------------------------\ndef predict():\n    try:\n        values = [\n            fields["Gender (1=F, 2=M)"].get(),\n            float(fields["Age"].get()),\n            fields["Smoking"].get(),\n            fields["Yellow Fingers"].get(),\n            fields["Anxiety"].get(),\n            fields["Peer Pressure"].get(),\n            fields["Chronic Disease"].get(),\n            fields["Fatigue"].get(),\n            fields["Allergy"].get(),\n            fields["Wheezing"].get(),\n            fields["Alcohol Consuming"].get(),\n            fields["Coughing"].get(),\n            fields["Shortness of Breath"].get(),\n            fields["Swallowing Difficulty"].get(),\n            fields["Chest Pain"].get()\n        ]\n\n        if "" in values:\n            messagebox.showerror("Error", "Please fill all fields!")\n            return\n\n        input_row = Orange.data.Table(domain, [values])\n        result = model(input_row)[0]\n\n        if result == "2":\n            messagebox.showwarning("Result", " Lung Cancer Likely (YES)")\n        else:\n            messagebox.showinfo("Result", " Lung Cancer Unlikely (NO)")\n\n    except Exception as e:\n        messagebox.showerror("Error", "Something went wrong.\\n" + str(e))\n\n\n# --------------------------------\n# PREDICT BUTTON\n# --------------------------------\ntk.Button(frame, text="Predict", command=predict, font=("Arial", 14),\n          bg="blue", fg="white").pack(pady=20)\n\n\nroot.mainloop()\n\n', 'filename': None}], 'scriptText': '\nimport tkinter as tk\nfrom tkinter import ttk, messagebox\nimport Orange\nimport pickle\n\n# --------------------------------\n# LOAD MODEL\n# --------------------------------\ntry:\n    model = pickle.load(open("model.pkcls", "rb"))\nexcept:\n    messagebox.showerror("Error", "Model file \'lung_model.pkcls\' not found!")\n    exit()\n\n# --------------------------------\n# DOMAIN\n# --------------------------------\ndomain = Orange.data.Domain([\n    Orange.data.DiscreteVariable("GENDER", values=["1", "2"]),\n    Orange.data.ContinuousVariable("AGE"),\n    Orange.data.DiscreteVariable("SMOKING", values=["1", "2"]),\n    Orange.data.DiscreteVariable("YELLOW_FINGERS", values=["1", "2"]),\n    Orange.data.DiscreteVariable("ANXIETY", values=["1", "2"]),\n    Orange.data.DiscreteVariable("PEER_PRESSURE", values=["1", "2"]),\n    Orange.data.DiscreteVariable("CHRONIC_DISEASE", values=["1", "2"]),\n    Orange.data.DiscreteVariable("FATIGUE", values=["1", "2"]),\n    Orange.data.DiscreteVariable("ALLERGY", values=["1", "2"]),\n    Orange.data.DiscreteVariable("WHEEZING", values=["1", "2"]),\n    Orange.data.DiscreteVariable("ALCOHOL_CONSUMING", values=["1", "2"]),\n    Orange.data.DiscreteVariable("COUGHING", values=["1", "2"]),\n    Orange.data.DiscreteVariable("SHORTNESS_OF_BREATH", values=["1", "2"]),\n    Orange.data.DiscreteVariable("SWALLOWING_DIFFICULTY", values=["1", "2"]),\n    Orange.data.DiscreteVariable("CHEST_PAIN", values=["1", "2"]),\n], Orange.data.DiscreteVariable("LUNG_CANCER", values=["1", "2"]))\n\n\n# --------------------------------\n# MAIN WINDOW\n# --------------------------------\nroot = tk.Tk()\nroot.title("Lung Cancer Predictor")\nroot.geometry("360x500")\nroot.resizable(False, False)\n\n# --------------------------------\n# SCROLLABLE FRAME SETUP\n# --------------------------------\nmain_frame = tk.Frame(root)\nmain_frame.pack(fill=tk.BOTH, expand=1)\n\ncanvas = tk.Canvas(main_frame)\ncanvas.pack(side=tk.LEFT, fill=tk.BOTH, expand=1)\n\nscrollbar = ttk.Scrollbar(main_frame, orient=tk.VERTICAL, command=canvas.yview)\nscrollbar.pack(side=tk.RIGHT, fill=tk.Y)\n\ncanvas.configure(yscrollcommand=scrollbar.set)\ncanvas.bind("&lt;Configure&gt;", lambda e: canvas.configure(scrollregion=canvas.bbox("all")))\n\nframe = tk.Frame(canvas)\ncanvas.create_window((0, 0), window=frame, anchor="nw")\n\n\n# Smooth mouse scroll support\ndef on_mousewheel(event):\n    canvas.yview_scroll(int(-1 * (event.delta / 120)), "units")\n\ncanvas.bind_all("&lt;MouseWheel&gt;", on_mousewheel)\n\n\n# --------------------------------\n# INPUT FIELDS\n# --------------------------------\ntitle = tk.Label(frame, text="PulmoPredict.AI",\n                 bg="white", fg="red",\n                 font=("Arial", 16, "bold"))\ntitle.pack(pady=10)\n\nfields = {}\nquestions = [\n    "Gender (1=F, 2=M)",\n    "Age",\n    "Smoking",\n    "Yellow Fingers",\n    "Anxiety",\n    "Peer Pressure",\n    "Chronic Disease",\n    "Fatigue",\n    "Allergy",\n    "Wheezing",\n    "Alcohol Consuming",\n    "Coughing",\n    "Shortness of Breath",\n    "Swallowing Difficulty",\n    "Chest Pain"\n]\n\nyes_no = ["1", "2"]\n\nfor q in questions:\n    tk.Label(frame, text=q, font=("Arial", 11), anchor="w").pack(pady=2)\n\n    if q == "Age":\n        entry = tk.Entry(frame)\n    elif q.startswith("Gender"):\n        entry = ttk.Combobox(frame, values=["1", "2"], state="readonly")\n    else:\n        entry = ttk.Combobox(frame, values=yes_no, state="readonly")\n\n    entry.pack(pady=4, fill=tk.X, padx=20)\n    fields[q] = entry\n\n\n# --------------------------------\n# PREDICT BUTTON FUNCTION\n# --------------------------------\ndef predict():\n    try:\n        values = [\n            fields["Gender (1=F, 2=M)"].get(),\n            float(fields["Age"].get()),\n            fields["Smoking"].get(),\n            fields["Yellow Fingers"].get(),\n            fields["Anxiety"].get(),\n            fields["Peer Pressure"].get(),\n            fields["Chronic Disease"].get(),\n            fields["Fatigue"].get(),\n            fields["Allergy"].get(),\n            fields["Wheezing"].get(),\n            fields["Alcohol Consuming"].get(),\n            fields["Coughing"].get(),\n            fields["Shortness of Breath"].get(),\n            fields["Swallowing Difficulty"].get(),\n            fields["Chest Pain"].get()\n        ]\n\n        if "" in values:\n            messagebox.showerror("Error", "Please fill all fields!")\n            return\n\n        input_row = Orange.data.Table(domain, [values])\n        result = model(input_row)[0]\n\n        if result == "2":\n            messagebox.showwarning("Result", " Lung Cancer Likely (YES)")\n        else:\n            messagebox.showinfo("Result", " Lung Cancer Unlikely (NO)")\n\n    except Exception as e:\n        messagebox.showerror("Error", "Something went wrong.\\n" + str(e))\n\n\n# --------------------------------\n# PREDICT BUTTON\n# --------------------------------\ntk.Button(frame, text="Predict", command=predict, font=("Arial", 14),\n          bg="blue", fg="white").pack(pady=20)\n\n\nroot.mainloop()\n\n', 'splitterState': b'\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\xa1\x00\x00\x00a\x01\xff\xff\xff\xff\x01\x00\x00\x00\x02\x00', 'vimModeEnabled': False, '__version__': 2}</properties>
+		<properties node_id="5" format="literal">{'auto_apply': True, 'binary_trees': True, 'controlAreaVisible': True, 'learner_name': '', 'limit_depth': True, 'limit_majority': True, 'limit_min_internal': True, 'limit_min_leaf': True, 'max_depth': 100, 'min_internal': 5, 'min_leaf': 2, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\xdf\x00\x00\x00\x9b\x00\x00\x03 \x00\x00\x01\xe7\x00\x00\x01\xe0\x00\x00\x00\xb9\x00\x00\x03\x1f\x00\x00\x01\xe6\x00\x00\x00\x00\x00\x00\x00\x00\x05\x00\x00\x00\x01\xe0\x00\x00\x00\xb9\x00\x00\x03\x1f\x00\x00\x01\xe6', 'sufficient_majority': 95, '__version__': 1}</properties>
+		<properties node_id="6" format="pickle">gASVsAIAAAAAAAB9lCiMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjBNzYXZlZFdpZGdldEdlb21ldHJ5
+lENCAdnQywADAAAAAAF5AAAAuAAAA+sAAAHLAAABegAAANYAAAPqAAABygAAAAAAAAAABQAAAAF6
+AAAA1gAAA+oAAAHKlIwJc2VsZWN0aW9ulF2UjAtzaG93X3Njb3Jlc5SIjAtzY29yZV90YWJsZZR9
+lIwQc2hvd19zY29yZV9oaW50c5R9lCiMBk1vZGVsX5SIjAZUcmFpbl+UiYwFVGVzdF+UiYwCQ0GU
+iIwXUHJlY2lzaW9uUmVjYWxsRlN1cHBvcnSUiIwLVGFyZ2V0U2NvcmWUiIwJUHJlY2lzaW9ulIiM
+BlJlY2FsbJSIjAJGMZSIjANBVUOUiIwHTG9nTG9zc5SJjAtTcGVjaWZpY2l0eZSJjBdNYXR0aGV3
+c0NvcnJDb2VmZmljaWVudJSIjANNU0WUiIwEUk1TRZSIjANNQUWUiIwETUFQRZSIjAJSMpSIjAZD
+VlJNU0WUiYwPQ2x1c3RlcmluZ1Njb3JllIiMClNpbGhvdWV0dGWUiIwXQWRqdXN0ZWRNdXR1YWxJ
+bmZvU2NvcmWUiHVzjAtfX3ZlcnNpb25fX5RLAowQY29udGV4dF9zZXR0aW5nc5RdlIwVb3Jhbmdl
+d2lkZ2V0LnNldHRpbmdzlIwHQ29udGV4dJSTlCmBlH2UKIwGdmFsdWVzlH2UKIwXc2hvd19wcm9i
+YWJpbGl0eV9lcnJvcnOUiIwPc2hvd19yZWdfZXJyb3JzlEsBjAtzaG93bl9wcm9ic5RLAYwMdGFy
+Z2V0X2NsYXNzlIwWKEF2ZXJhZ2Ugb3ZlciBjbGFzc2VzKZRoB32UaCFLAnWMB2NsYXNzZXOUjAJO
+T5SMA1lFU5SGlHViYXUu
+</properties>
+		<properties node_id="7" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\xe2\x00\x00\x00Q\x00\x00\x04\x03\x00\x00\x02O\x00\x00\x00\xe3\x00\x00\x00o\x00\x00\x04\x02\x00\x00\x02N\x00\x00\x00\x00\x00\x00\x00\x00\x05\x00\x00\x00\x00\xe3\x00\x00\x00o\x00\x00\x04\x02\x00\x00\x02N', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
